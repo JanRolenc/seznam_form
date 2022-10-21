@@ -5,7 +5,7 @@
     justify-content: center;
     background-color: rgb(218, 212, 212);
     span {
-        color: red;
+        color: rgb(208, 9, 9);
         font-style: italic;
     }
     &__form-container {
@@ -15,7 +15,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        background-color: rgb(113, 113, 242);
+        background-color: rgb(126, 126, 209);
         border-radius: 5px;
     }
     &__form-container--submitted {
@@ -25,7 +25,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        background-color: rgb(113, 113, 242);
+        background-color: rgb(126, 126, 209);
         border-radius: 5px;
     }
     &__form-container__form {
