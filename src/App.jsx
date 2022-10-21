@@ -100,7 +100,8 @@ function App() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const isValide = formValidation();
-    setFormIsValide(formValidation());
+    // setFormIsValide(formValidation());
+    setFormIsValide(isValide);
     if (isValide) {
       submittedRef.current = setTimeout(() => setSubmitted(true), 3000);
       submittedRef.current = setTimeout(() => setSubmitted(false), 5000);
@@ -117,7 +118,7 @@ function App() {
           (
             <form className="app__form-container__form" onSubmit={handleSubmit}>
               <label>Jméno:
-                <br></br>
+                <br />
                 <input
                   type="text"
                   name="name"
@@ -128,7 +129,7 @@ function App() {
               <label>Email:{
                 (missedData.email && missedData.phone)
                   ? <span> Vyplň email nebo telefon</span> : ""}
-                <br></br>
+                <br />
                 <input
                   type="email"
                   name="email"
@@ -139,7 +140,7 @@ function App() {
               <label>Telefon:{
                 (missedData.phone && missedData.email)
                   ? <span> Vyplň email nebo telefon</span> : ""}
-                <br></br>
+                <br />
                 <input
                   type="text"
                   name="phone"
@@ -149,7 +150,7 @@ function App() {
               </label>
 
               <label>Zpráva:{missedData.message ? <span> Toto pole je povinné</span> : ""}
-                <br></br>
+                <br />
                 <textarea
                   name="message"
                   value={formData.message}
