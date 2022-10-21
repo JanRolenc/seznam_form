@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/seznam_form/static/css/main.229e2cc6.css",
+    "main.css": "/seznam_form/static/css/main.30c600b3.css",
     "main.js": "/seznam_form/static/js/main.efc5c37e.js",
     "index.html": "/seznam_form/index.html",
-    "main.229e2cc6.css.map": "/seznam_form/static/css/main.229e2cc6.css.map",
+    "main.30c600b3.css.map": "/seznam_form/static/css/main.30c600b3.css.map",
     "main.efc5c37e.js.map": "/seznam_form/static/js/main.efc5c37e.js.map"
   },
   "entrypoints": [
-    "static/css/main.229e2cc6.css",
+    "static/css/main.30c600b3.css",
     "static/js/main.efc5c37e.js"
   ]
 }
