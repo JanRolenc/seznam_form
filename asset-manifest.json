@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/seznam_form/static/css/main.30c600b3.css",
-    "main.js": "/seznam_form/static/js/main.efc5c37e.js",
+    "main.css": "/seznam_form/static/css/main.692e796b.css",
+    "main.js": "/seznam_form/static/js/main.5775cdf2.js",
     "index.html": "/seznam_form/index.html",
-    "main.30c600b3.css.map": "/seznam_form/static/css/main.30c600b3.css.map",
-    "main.efc5c37e.js.map": "/seznam_form/static/js/main.efc5c37e.js.map"
+    "main.692e796b.css.map": "/seznam_form/static/css/main.692e796b.css.map",
+    "main.5775cdf2.js.map": "/seznam_form/static/js/main.5775cdf2.js.map"
   },
   "entrypoints": [
-    "static/css/main.30c600b3.css",
-    "static/js/main.efc5c37e.js"
+    "static/css/main.692e796b.css",
+    "static/js/main.5775cdf2.js"
   ]
 }
